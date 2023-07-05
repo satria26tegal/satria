@@ -1,0 +1,26 @@
+public class SoalMethod {
+
+    public static void main(String[] args) {
+        Calculate p = new Calculate();
+        p.setAngka1(8);
+        p.setAngka2(9);
+        p.addAllNumber();
+        p.multiplyNumber();
+        p.multiplyNumber(p.getAngka1(), p.getAngka2());
+
+    }
+}
+
+class Calculate {
+    private int angka1;
+    private int angka2;
+
+    public int getAngka1() {
+        return angka1;
+    }
+
+    public int getAngka2() {
+        return angka2;
+    }
+
+    public void setAngka1(int angka1) {
